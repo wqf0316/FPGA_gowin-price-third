@@ -1,0 +1,157 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_100M" trig_type="0" storage_depth="32768" window_num="1" capture_amount="32768" implementation="0" trigger_pos="0" module_name="top_digital_measure" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Bus capture_enable="true" name="top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[27:0]">
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[27]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[26]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[25]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[24]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[23]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[22]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[21]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[20]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[19]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[18]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[17]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[16]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[15]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[14]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[13]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[12]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[11]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[10]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[9]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[8]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[7]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[6]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[5]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[4]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[3]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[2]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[1]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/high_time_out_next[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[27:0]">
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[27]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[26]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[25]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[24]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[23]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[22]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[21]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[20]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[19]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[18]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[17]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[16]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[15]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[14]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[13]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[12]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[11]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[10]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[9]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[8]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[7]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[6]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[5]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[4]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[3]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[2]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[1]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_out_next[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="top_measure_output_inst/freq_meter_calc_inst/low_time_count[39:0]">
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[39]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[38]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[37]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[36]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[35]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[34]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[33]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[32]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[31]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[30]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[29]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[28]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[27]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[26]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[25]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[24]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[23]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[22]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[21]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[20]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[19]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[18]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[17]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[16]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[15]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[14]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[13]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[12]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[11]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[10]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[9]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[8]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[7]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[6]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[5]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[4]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[3]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[2]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[1]</Signal>
+                <Signal>top_measure_output_inst/freq_meter_calc_inst/low_time_count[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">input_signal</Signal>
+            <Signal capture_enable="true">top_measure_output_inst/freq_meter_calc_inst/rising_flag</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>input_signal</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="0" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1011111011011101</GAO_ID>
+</GAO_CONFIG>

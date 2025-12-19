@@ -1,0 +1,96 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AT-138B" pn="GW5AT-LV138PG484AC1/I0">gw5at138b-012</Device>
+    <FileList>
+        <File path="src/ADC/acm2108_ddr3_rgmii.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/ad_8bit_to_16bit.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/cmd_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/ddr3_ctrl_2port/ddr3_ctrl_2port.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/ddr3_ctrl_2port/fifo_ddr3_adapter.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/ddr3_memory_interface/ddr3_memory_interface.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/eth_cmd.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/eth_pll/eth_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/eth_pll/eth_pll_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/eth_send_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/eth_udp_gmii/crc32_d8.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/eth_udp_gmii/eth_udp_rx_gmii.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/eth_udp_gmii/eth_udp_tx_gmii.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/eth_udp_gmii/ip_checksum.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/fifo_rx/fifo_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/fifo_tx/fifo_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/gmii_rgmii_gmii/gmii_to_rgmii.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/gmii_rgmii_gmii/rgmii_to_gmii.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/gowin_ddr/gowin_ddr.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/pll_init.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/rd_data_fifo/rd_data_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/speed_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/state_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/ADC/wr_data_fifo/wr_data_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/gowin_pll_digital_measure/gowin_pll_digital_measure.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/gowin_pll_digital_measure/gowin_pll_digital_measure_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/integer_division_1/integer_division.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/integer_division_2/integer_division.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/integer_division_3/integer_division.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/integer_multiplier_1/integer_multiplier.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/integer_multiplier_2/integer_multiplier.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/display_control.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/dt_display/bcd_8421.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/dt_display/dt_display_top.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/dt_display/hc595_driver.v" type="file.verilog" enable="0"/>
+        <File path="src/DIGITAL_MEASURE/rtl/dt_display/seg_dynamic.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/freq_meter_calc.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/freq_meter_calc_2.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/key_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/pwm_out.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/top_digital_measure.v" type="file.verilog" enable="1"/>
+        <File path="src/DIGITAL_MEASURE/rtl/top_measure_output.v" type="file.verilog" enable="1"/>
+        <File path="src/TOP_ALL.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/FX2_CDC_UART_SPI.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/SPI_Slave.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/Spi_Master_Ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/User_Param.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/byte_tx_control.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/ctrl_dds_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/dds.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/pll/gowin_prom_half_sin_wave/gowin_prom_half_sin_wave.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/pll/gowin_prom_saw_wave/gowin_prom_saw_wave.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/pll/gowin_prom_sin_wave/gowin_prom_sin_wave.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/pll/gowin_prom_squ_wave/gowin_prom_squ_wave.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/pll/gowin_prom_tri_wave/gowin_prom_tri_wave.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/pll/gowin_sdpb/gowin_sdpb.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/top_dds.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/dds/uart_cmd_dds.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/fifo_1024x8.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/fx2_fifo_crtl.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/hc595_driver.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/hex8.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/iic/convert.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/iic/i2c_bit_shift.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/iic/i2c_control.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/iic/iic_top.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/iic/uart_cmd_iic.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/iic/uart_data_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/logic_analysize/gowin_sdpb_logicram_1/gowin_sdpb_logicram_1.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/logic_analysize/logic_sampler.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/logic_analysize/logic_sender.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/logic_analysize/logic_top.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/logic_analysize/uart_cmd_logic.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/pwm/counter_pwm.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/pwm/uart_cmd_pwm.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/pwm/uart_rx_ctrl_pwm.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/top_USB_UART_SPI_PWM_IIC_DDS.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/uart_byte_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/USBHS/uart_byte_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/ALL.cst" type="file.cst" enable="1"/>
+        <File path="src/ADC/acm2108_ddr3_rgmii.sdc" type="file.sdc" enable="1"/>
+        <File path="src/USBHS/dds/mif/half_sin_wave.mi" type="file.other" enable="1"/>
+        <File path="src/USBHS/dds/mif/saw_wave.mi" type="file.other" enable="1"/>
+        <File path="src/USBHS/dds/mif/sin_wave.mi" type="file.other" enable="1"/>
+        <File path="src/USBHS/dds/mif/squ_wave.mi" type="file.other" enable="1"/>
+        <File path="src/USBHS/dds/mif/tri_wave.mi" type="file.other" enable="1"/>
+    </FileList>
+</Project>
