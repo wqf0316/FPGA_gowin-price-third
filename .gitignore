@@ -36,6 +36,9 @@ temp/
 *.rpt.html
 *_syn_resource.html
 *_syn_rsc.xml
+*.html
+*.xml
+*.ini
 
 # Gowin AO (RTL GAO) 生成文件
 impl/gwsynthesis/RTL_GAO/
@@ -73,6 +76,17 @@ impl/temp/
 # 测试临时文件
 test/.tags
 test/sim
+
+# 上位机文件
+上位机文件/
+
+# 临时文件和备份文件
+*~
+*.bak
+
+# 标准输出/错误日志
+stdout.log
+stderr.log
 
 # OS
 .DS_Store
