@@ -1,0 +1,80 @@
+# Binary executables
+*.exe
+
+# Archives
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# SVN残留
+.svn/
+
+# Gowin IDE 用户设置
+*.user
+*.log
+
+# 综合生成文件 (gate-level netlist)
+*.vg
+*.vo
+
+# 布局布线生成文件
+*.bin
+*.binx
+*.fs
+*.db
+
+# IP 生成临时文件
+*.ipc
+temp/
+
+# 仿真波形
+*.vcd
+
+# 综合/布局布线报告
+*.rpt.html
+*_syn_resource.html
+*_syn_rsc.xml
+
+# Gowin AO (RTL GAO) 生成文件
+impl/gwsynthesis/RTL_GAO/
+
+# 构建输出
+build/
+
+# 综合报告 (保留 .prj 配置)
+impl/gwsynthesis/*.log
+impl/gwsynthesis/*.vg
+impl/gwsynthesis/*_syn.rpt.html
+impl/gwsynthesis/*_syn_resource.html
+impl/gwsynthesis/*_syn_rsc.xml
+
+# PnR 生成文件 (保留 process_config.json)
+impl/pnr/*.log
+impl/pnr/*.bin
+impl/pnr/*.binx
+impl/pnr/*.db
+impl/pnr/*.fs
+impl/pnr/*.p
+impl/pnr/*.pr
+impl/pnr/*.rpt.txt
+impl/pnr/*.rpt.html
+impl/pnr/*.pin.html
+impl/pnr/*.power.html
+impl/pnr/*.tr.html
+impl/pnr/*_tr_cata.html
+impl/pnr/*_tr_content.html
+impl/pnr/*.timing_paths
+impl/pnr/*.cfg
+impl/pnr/cmd.do
+impl/temp/
+
+# 测试临时文件
+test/.tags
+test/sim
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini

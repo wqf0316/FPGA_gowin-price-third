@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AT-138B" package="PBGA484A" speed="1" partNumber="GW5AT-LV138PG484AC1/I0"/>
+    <FileList>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\acm2108_ddr3_rgmii.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\ad_8bit_to_16bit.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\cmd_rx.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\ddr3_ctrl_2port\ddr3_ctrl_2port.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\ddr3_ctrl_2port\fifo_ddr3_adapter.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\ddr3_memory_interface\ddr3_memory_interface.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\eth_cmd.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\eth_pll\eth_pll.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\eth_pll\eth_pll_mod.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\eth_send_ctrl.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\eth_udp_gmii\crc32_d8.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\eth_udp_gmii\eth_udp_rx_gmii.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\eth_udp_gmii\eth_udp_tx_gmii.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\eth_udp_gmii\ip_checksum.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\fifo_rx\fifo_rx.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\fifo_tx\fifo_tx.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\gmii_rgmii_gmii\gmii_to_rgmii.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\gmii_rgmii_gmii\rgmii_to_gmii.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\gowin_ddr\gowin_ddr.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\gowin_pll\gowin_pll.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\pll_init.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\rd_data_fifo\rd_data_fifo.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\speed_ctrl.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\state_ctrl.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\ADC\wr_data_fifo\wr_data_fifo.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\gowin_pll_digital_measure\gowin_pll_digital_measure.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\gowin_pll_digital_measure\gowin_pll_digital_measure_mod.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\integer_division_1\integer_division.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\integer_division_2\integer_division.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\integer_division_3\integer_division.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\integer_multiplier_1\integer_multiplier.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\integer_multiplier_2\integer_multiplier.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\display_control.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\dt_display\bcd_8421.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\dt_display\dt_display_top.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\dt_display\seg_dynamic.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\freq_meter_calc.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\freq_meter_calc_2.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\key_filter.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\pwm_out.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\top_digital_measure.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\DIGITAL_MEASURE\rtl\top_measure_output.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\TOP_ALL.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\FX2_CDC_UART_SPI.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\SPI_Slave.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\Spi_Master_Ctrl.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\User_Param.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\byte_tx_control.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\ctrl_dds_ram.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\dds.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\pll\gowin_prom_half_sin_wave\gowin_prom_half_sin_wave.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\pll\gowin_prom_saw_wave\gowin_prom_saw_wave.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\pll\gowin_prom_sin_wave\gowin_prom_sin_wave.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\pll\gowin_prom_squ_wave\gowin_prom_squ_wave.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\pll\gowin_prom_tri_wave\gowin_prom_tri_wave.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\pll\gowin_sdpb\gowin_sdpb.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\top_dds.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\dds\uart_cmd_dds.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\fifo_1024x8.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\fx2_fifo_crtl.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\hc595_driver.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\hex8.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\iic\convert.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\iic\i2c_bit_shift.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\iic\i2c_control.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\iic\iic_top.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\iic\uart_cmd_iic.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\iic\uart_data_tx.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\logic_analysize\gowin_sdpb_logicram_1\gowin_sdpb_logicram_1.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\logic_analysize\logic_sampler.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\logic_analysize\logic_sender.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\logic_analysize\logic_top.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\logic_analysize\uart_cmd_logic.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\pwm\counter_pwm.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\pwm\uart_cmd_pwm.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\pwm\uart_rx_ctrl_pwm.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\top_USB_UART_SPI_PWM_IIC_DDS.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\uart_byte_rx.v" type="verilog"/>
+        <File path="C:\Users\13430\Desktop\Our_project_multly_analysis\src\USBHS\uart_byte_tx.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\13430\Desktop\Our_project_multly_analysis\impl\gwsynthesis\acm1030_ddr3_rgmii.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="TOP_ALL"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
